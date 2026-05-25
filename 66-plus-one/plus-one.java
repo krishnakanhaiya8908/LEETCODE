@@ -7,8 +7,12 @@ class Solution {
                 digits[i]++;
                 return digits;
             }
+            else{
+                digits[i] = 0;
+            }
 
-            digits[i] = 0;
+            
+
         }
 
         int[] ans = new int[digits.length + 1];
