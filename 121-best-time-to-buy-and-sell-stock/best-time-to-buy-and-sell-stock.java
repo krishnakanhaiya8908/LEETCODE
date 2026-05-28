@@ -3,7 +3,6 @@ class Solution {
         //int x=prices[0]-prices[prices.length-1];
         int min=prices[0];
         int max=0;
-        //int profit = prices[i] - min;
         for(int i=0;i<prices.length;i++){
             if(prices[i]<min){
                 min=prices[i];
